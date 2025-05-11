@@ -1,8 +1,8 @@
-Face Detection and Recognition
+#Face Detection and Recognition
 
 This project implements a face detection and recognition system using machine learning techniques. It uses the Haar Cascade Classifier for face detection and the Local Binary Patterns Histograms (LBPH) algorithm for face recognition.
 
-Features
+#Features
 
 Detect human faces in real-time using OpenCV's Haar Cascade.
 
@@ -10,7 +10,7 @@ Train a custom face recognition model using LBPH.
 
 Recognize and identify faces from a live video stream or dataset.
 
-Technologies Used
+#Technologies Used
 
 Python
 
