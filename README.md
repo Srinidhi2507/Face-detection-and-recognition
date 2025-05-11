@@ -15,29 +15,18 @@ This project implements a face detection and recognition system using machine le
 - Haar Cascade Classifier
 - LBPH (Local Binary Patterns Histograms)
 
-## Project Structure
-
-Face-Detection-and-Recognition/
-│
-├── face_dataset.py # Captures and stores face images
-├── training.py # Trains the LBPH model using stored images
-├── face_recognition.py # Detects and recognizes faces in real-time
-├── haarcascade_frontalface_default.xml # Haarcascade classifier file
-├── dataset/ # Stores captured face images
-├── trainer/ # Stores the trained model
-└── README.md
 
 ## Setup Instructions
 
 1. **Clone the Repository**
    git clone https://github.com/Srinidhi2507/Face-Detection-and-Recognition.git
    cd Face-Detection-and-Recognition
-2. Install Dependencies
+3. Install Dependencies
 Make sure you have Python 3 installed. Then install OpenCV:
    pip install opencv-python
-3. Download Haar Cascade File
+4. Download Haar Cascade File
 Ensure that haarcascade_frontalface_default.xml is present in the directory. You can also download it from OpenCV GitHub.
-4. How to Use
+5. How to Use
 Step 1: Create Face Dataset
 Run the script to capture face images:
    python face_dataset.py
